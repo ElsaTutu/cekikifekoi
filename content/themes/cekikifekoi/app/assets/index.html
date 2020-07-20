@@ -1,15 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webpack</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
   <header class="header">
-    <h1>Bienvenue sur l'annuaire social de Vichy Communauté</h1>
+    <h1 class="header__title">Bienvenue sur l'annuaire social de Vichy Communauté</h1>
+    <nav class="header__nav">
+      <ul class="header__nav__menu">
+        <li><a href="#" class="header__nav__menu__title">nos services</a>
+          <ul class="header__nav__menu__items">
+            <li class="header__nav__menu__item"><a href="#">Gérer mes papiers/Gerer mon budget</a></li>
+            <li class="header__nav__menu__item"><a href="#">Handicap</a></li>
+            <li class="header__nav__menu__item"><a href="#">Accueil/Nouveaux arrivants</a></li>
+            <li class="header__nav__menu__item"><a href="#">Bien être/Se divertir</a></li>
+            <li class="header__nav__menu__item"><a href="#">Bien vieillir</a></li>
+            <li class="header__nav__menu__item"><a href="#">Se déplacer/Se loger/S'équiper</a></li>
+            <li class="header__nav__menu__item"><a href="#">S'instruire/Se former/Emploi</a></li>
+            <li class="header__nav__menu__item"><a href="#">S'habiller/Se nourrir/Se soigner</a></li>
+            <li class="header__nav__menu__item"><a href="#">Jeunes/Famille</a></li>
+            <li class="header__nav__menu__item"><a href="#">Defense des droits</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
   </header>
+
+  <main class="main">
+    <p class="main__description">
+      Ce site internet à pour objectif de vous informer sur les acteurs du domaine social de l'agglomération de Vichy.
+    </p>
+    <img class="main__image" src="/content/themes/cekikifekoi/app/images/social-media.jpg" alt="">
+  </main>
+
+  <footer class="footer">
+    <p>
+      cekikifekoi <i class="fa fa-copyright" aria-hidden="true"></i> 2020.
+    </p>
+  </footer>
+
   <script src="js/app.js"></script>
 </body>
+
 </html>
