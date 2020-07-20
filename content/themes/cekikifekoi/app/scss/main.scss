@@ -4,18 +4,20 @@
 // 1. Abstracts
 @import
         'abstracts/variables';
-// 2. Vendors
-
-@import 
-    '~font-awesome/scss/font-awesome';
-
-
-// 3. Base
+    
+// 2. Base
 @import
-        'base/reset-css';
+        'base/reset-css',
+        'base/base',
+        '~font-awesome/scss/font-awesome';
 
-// 4. Layout
+// 3. Layout
+@import
+        'layout/breakpoints',
+        'layout/header',
+        'layout/main',
+        'layout/footer';
 
-// 5. Components
-
-// 6. Pages
+// 4. Components
+@import
+        'components/menu.scss';

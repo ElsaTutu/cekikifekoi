@@ -1,0 +1,19 @@
+.header__nav {
+    width: 50%;
+
+    &__items {
+        display: none;
+        color: #ffffff;
+    }
+
+    &:hover {
+        ul li ul {
+            display: block;
+            
+        }
+    }
+
+    a{
+        color: #ffffff;
+    }
+}
