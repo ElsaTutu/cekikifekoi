@@ -6,18 +6,20 @@
     display: flex;
     justify-content: space-around;
     padding-top: 2.5vh;
-    
-    &__title{
+
+    &__title {
         font-size: $large-font-size;
         width: 50%;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        font-size: $extra-large-font-size;
     }
 
-    &__nav{
-        font-size: $medium-font-size;
+    &__nav {
+        font-size: $extra-large-font-size;
         &__title {
             color: $white;
             text-align: center;
         }
     }
 }
-

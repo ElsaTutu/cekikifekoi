@@ -1,7 +1,8 @@
 .header__nav {
-    width: 20%;
+    width: 40%;
     text-align: left;
     z-index: 1000;
+    cursor: pointer;
 
     &__items {
         display: none;
@@ -13,7 +14,7 @@
             margin-top: 1em;
             padding: 1em;
             text-align: left;
-            background-color: grey; 
+            background-color: grey;
         }
     }
 
