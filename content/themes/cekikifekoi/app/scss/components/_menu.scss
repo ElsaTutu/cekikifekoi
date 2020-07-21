@@ -1,7 +1,7 @@
 .header__nav {
-
     width: 20%;
     text-align: left;
+    z-index: 1000;
 
     &__items {
         display: none;
@@ -9,22 +9,23 @@
 
     &:hover {
         ul li ul {
-            display: block;  
-            margin-top: 1em;   
-            background-color: grey;
-            
+            display: block;
+            margin-top: 1em;
+            padding: 1em;
+            text-align: left;
+            background-color: grey; 
         }
     }
 
-    a{
+    a {
         color: $white;
         line-height: 2em;
         margin-left: 1em;
-        
-        &:hover{
+
+        &:hover {
             border-bottom: 2px solid red;
             border-bottom-width: thin;
-            padding-bottom: .2em;
+            padding-bottom: 0.2em;
             display: inline;
         }
     }
