@@ -1,3 +1,13 @@
 a {
     text-decoration: none;
 }
+
+* {
+    box-sizing: border-box;
+    font-family: $normal-font-family;
+    font-size: $normal-font-size;
+}
+
+body {
+    height: 100vh;
+}

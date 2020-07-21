@@ -1,19 +1,31 @@
 .header__nav {
-    width: 50%;
+
+    width: 20%;
+    text-align: left;
 
     &__items {
         display: none;
-        color: #ffffff;
     }
 
     &:hover {
         ul li ul {
-            display: block;
+            display: block;  
+            margin-top: 1em;   
+            background-color: grey;
             
         }
     }
 
     a{
-        color: #ffffff;
+        color: $white;
+        line-height: 2em;
+        margin-left: 1em;
+        
+        &:hover{
+            border-bottom: 2px solid red;
+            border-bottom-width: thin;
+            padding-bottom: .2em;
+            display: inline;
+        }
     }
 }

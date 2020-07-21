@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    justify-items: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    
+    
+    &__image{
+        width: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin: auto;
+        height: 40%;
+        display: flex;
+        justify-self: center;
+        #image{
+            width: 100%;
+            margin: auto;
+            padding-top: 4em;
+        }
+    }
+
+    &__description{
+        width: 50%;
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 40%;
+        display: flex;
+        justify-self: center;
+
+        &__text{
+            width: 70%;
+            background-color: $main;
+            font-size: $large-font-size;
+            line-height: 2em;
+            border-radius: 30px;
+            margin: auto;
+            text-align: center;
+            padding: 1em;
+            color: $white;
+        }
+    }
+}
