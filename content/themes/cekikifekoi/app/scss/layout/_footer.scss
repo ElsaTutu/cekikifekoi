@@ -1,11 +1,21 @@
 .footer {
     background-color: $main;
     color: $white;
+    font-size: $large-font-size;
     height: 3em;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     padding-top: 1em;
-    text-align: center;
-    
+    text-align: center;  
+
+    &__copyright{
+        float: right;
+        margin-right: 3em;
+    }
+}
+
+.footer__normal{
+    position: relative;
+    margin-top: 1em;
 }

@@ -1,0 +1,53 @@
+.main_list{
+    width: 70%;
+    margin: auto;
+
+    .one-article{
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        padding: 1em;
+        border: solid 1px black;
+        
+
+        &__img{
+            height: 10em;
+        }
+
+        &__text{
+            font-size: $medium-font-size;
+            margin: auto 2em;
+            width: 50%;
+        }
+
+        &__button{
+            position: absolute;
+            right: 15%;
+            bottom: 0;
+            font-size: $medium-font-size;
+            height: 20%;
+            width: 12%;
+            margin: 1em;
+            background-color: $main;
+
+            a{
+                color: $white;
+                font-weight: bold;
+            }
+        }
+
+        &__category{
+            font-weight: bold;
+            font-size: $medium-font-size;
+            background-color: orange;
+            padding: .5em;
+            position: absolute;
+            right: 1em;
+            top: .5em;
+        }
+    }
+
+}

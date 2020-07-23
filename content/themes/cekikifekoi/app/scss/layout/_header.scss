@@ -11,8 +11,11 @@
         font-size: $large-font-size;
         width: 50%;
         text-transform: uppercase;
-        letter-spacing: .2em;
         font-size: $extra-large-font-size;
+        font-family: $normal-font-family;
+        a{
+            color: $white;
+        }
     }
 
     &__nav {
