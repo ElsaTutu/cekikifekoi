@@ -1,13 +1,22 @@
 .main_list{
+    display: flex;
+    flex-direction: column;
     width: 70%;
     margin: auto;
+
+    &__title{
+        font-size: $extra-large-font-size;
+        background-color: orange;
+        margin: .4em auto 0;
+        font-family: $normal-font-family;
+        text-align: center;
+        padding: .2em 4em;
+    }
 
     .one-article{
         display: flex;
         justify-content: center;
-        margin-top: 1em;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 1em auto;
         position: relative;
         padding: 1em;
         border: solid 1px black;
@@ -37,16 +46,6 @@
                 color: $white;
                 font-weight: bold;
             }
-        }
-
-        &__category{
-            font-weight: bold;
-            font-size: $medium-font-size;
-            background-color: orange;
-            padding: .5em;
-            position: absolute;
-            right: 1em;
-            top: .5em;
         }
     }
 
